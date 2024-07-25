@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+     font-family: "Ubuntu", sans-serif;
+}
+ .flower{
+     height: 35vh;
+     background-color: #FDFFC2;
+     margin: 15px;
+}
+ .flower img{
+     width: 15%;
+}
+ h1{
+     color: #FDFFC2;
+     font-size: 4vw;
+     margin: 0;
+     margin-bottom: 2vw;
+}
+ .flowers {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-left: 5%;
+     margin-top: 0;
+}
+ .flowers h1,i {
+     margin: 0;
+}
+ 
