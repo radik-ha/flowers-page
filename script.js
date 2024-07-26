@@ -3,43 +3,43 @@ const division = document.getElementById("flowers");
 document.body.style.backgroundColor = "blue"
 
 const flowers = [
-		{
-			imglink: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/lotus-flower-real444.jpg",
-            name: "Lotus",
-			scname: "Nelumbo nucifera",
-			wikilink: "https://en.wikipedia.org/wiki/Lotus"
-		},
+	{
+	        imglink: "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/lotus-flower-real444.jpg",
+                name: "Lotus",
+		scname: "Nelumbo nucifera",
+		wikilink: "https://en.wikipedia.org/wiki/Lotus"
+	},
         
         {
         	
-            imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRorDVv6LPT7H-_VlI0pDrwIayjO2_rAAaA&s",
-            name: "Shoe Flower",
+                imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRorDVv6LPT7H-_VlI0pDrwIayjO2_rAAaA&s",
+                name: "Shoe Flower",
         	scname: "Hibiscus rosa sinencis",
-			wikilink: "https://en.wikipedia.org/wiki/Hibiscus"        
+		wikilink: "https://en.wikipedia.org/wiki/Hibiscus"        
         },
 
         {
         	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9n7JMt2fy9gM3072EklXWey4_LTUwiYK6hdBkrREzGsuAIElmWYEg-Dvzu-ZmaCAQGzc&usqp=CAU",
-            name: "Sunflower",
-            color: "lightgreen",
+                name: "Sunflower",
+                color: "lightgreen",
         	scname: "Helianthus annuus",
-			wikilink: "https://en.wikipedia.org/wiki/Common_sunflower"        
+		wikilink: "https://en.wikipedia.org/wiki/Common_sunflower"        
         },
 
         {
         	
         	imglink: "https://qph.cf2.quoracdn.net/main-qimg-7e6e88b16735d443b006305f1977b40a-lq",
-            name: "Jasmine",
+                name: "Jasmine",
         	scname: "Jasminum officinale",
-			wikilink: "https://en.wikipedia.org/wiki/Jasmine"
+		wikilink: "https://en.wikipedia.org/wiki/Jasmine"
         },
 
         {
         	
         	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNAVxBFNWJqv_FVVpYjlFOZDoXfenl_9Hp0oOFbME8pUcHzDfR9WZW7iS2QQftkGEhrL4&usqp=CAU",
-            name: "Champak",
+                name: "Champak",
         	scname: "magnolia champaca",        
-			wikilink: "https://en.wikipedia.org/wiki/Magnolia_champaca"
+		wikilink: "https://en.wikipedia.org/wiki/Magnolia_champaca"
         },
 
         {
@@ -51,9 +51,9 @@ const flowers = [
 
         {
         	imglink: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThU24-GRbpeLT-zsyyN6qnDt7W2kjAkfrNt8QM7aOfl3Z7BlLYeemDFQ5n1dc-7xcfVgc&usqp=CAU",
-            name: "Marigold",
-            scname: "Tagetes spp",
-            wikilink: "https://en.wikipedia.org/wiki/Marigold"
+                name: "Marigold",
+                scname: "Tagetes spp",
+                wikilink: "https://en.wikipedia.org/wiki/Marigold"
         },
 
         {
@@ -78,6 +78,7 @@ const flowers = [
         }
 ]
 
+         
 function makeHtml(obj){
 	const od = document.createElement("div");
 	od.setAttribute("class","flower");
